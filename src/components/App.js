@@ -151,27 +151,67 @@ const App = () => (
                 </div>
               </div>
               <div className="card__face card__face--back card__face--back--p1">
-                BACK
+                <div className="card__detail">
+                  <span className="card__detail--text">only</span>
+                  <span className="card__detail--price">$297</span>
+                </div>
+                <a href="#" className="btn btn--white">Book Now!</a>
               </div>
             </div>
           </div>
           <div className="col-1-of-3">
             <div className="card">
               <div className="card__face card__face--front card__face--front--p2">
-                FRONT
+                <div className="card__img card__img--2"></div>
+                <h4 className="card__heading">
+                  <span className="card__heading-span card__heading-span--2">
+                    the forest hiker
+                  </span>
+                </h4>
+                <div className="card__text">
+                  <ul>
+                    <li>7 day tours</li>
+                    <li>Up to 40 people</li>
+                    <li>6 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty : medium</li>
+                  </ul>
+                </div>
               </div>
               <div className="card__face card__face--back card__face--back--p2">
-                BACK
+                <div className="card__detail">
+                  <span className="card__detail--text">only</span>
+                  <span className="card__detail--price">$497</span>
+                </div>
+                <a href="#" className="btn btn--white">Book Now!</a>
               </div>
             </div>
           </div>
           <div className="col-1-of-3">
             <div className="card">
               <div className="card__face card__face--front card__face--front--p3">
-                FRONT
+                <div className="card__img card__img--3"></div>
+                <h4 className="card__heading">
+                  <span className="card__heading-span card__heading-span--3">
+                    the snow adventurer
+                  </span>
+                </h4>
+                <div className="card__text">
+                  <ul>
+                    <li>5 day tours</li>
+                    <li>Up to 15 people</li>
+                    <li>3 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty : hard</li>
+                  </ul>
+                </div>
               </div>
               <div className="card__face card__face--back card__face--back--p3">
-                BACK
+                <div className="card__detail">
+                  <span className="card__detail--text">only</span>
+                  <span className="card__detail--price">$897</span>
+                </div>
+                <a href="#" className="btn btn--white">Book Now!</a>
               </div>
             </div>
           </div>

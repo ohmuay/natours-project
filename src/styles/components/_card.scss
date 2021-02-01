@@ -57,14 +57,32 @@
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     &--1 {
       background: linear-gradient(
-          to bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+        to bottom,
+        $color-secondary-light,
+        $color-secondary-dark
         ),
         url("../../img/nat-5.jpg");
-      background-size: cover;
-    }
-  }
+        background-size: cover;
+      }
+      &--2 {
+        background: linear-gradient(
+          to bottom,
+          $color-primary-light,
+          $color-primary-dark
+          ),
+          url("../../img/nat-6.jpg");
+          background-size: cover;
+        }
+        &--3 {
+          background: linear-gradient(
+            to bottom,
+            $color-tertiary-light,
+            $color-tertiary-dark
+            ),
+            url("../../img/nat-7.jpg");
+            background-size: cover;
+          }
+        }
   &__heading {
     font-size: 3rem;
     font-weight: 100;
@@ -73,17 +91,31 @@
     color: $color-white;
     position: absolute;
     top: 12rem;
-    right:2rem;
-    width:50%;
+    right: 2rem;
+    width: 75%;
   }
   &__heading-span {
-    padding:1.5rem;
+    padding: 1.5rem;
     box-decoration-break: clone;
     &--1 {
       background: linear-gradient(
         to right bottom,
-        rgba($color-secondary-light,.85),
-        rgba($color-secondary-dark,.85)
+        rgba($color-secondary-light, 0.85),
+        rgba($color-secondary-dark, 0.85)
+      );
+    }
+    &--2 {
+      background: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.85),
+        rgba($color-primary-dark, 0.85)
+      );
+    }
+    &--3 {
+      background: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.85),
+        rgba($color-tertiary-dark, 0.85)
       );
     }
   }
@@ -101,6 +133,24 @@
           border-bottom: 1px solid #eee;
         }
       }
+    }
+  }
+
+  &__detail {
+    text-transform: uppercase;
+    display:flex;
+    flex-direction: column;
+    color: $color-white;
+    margin: 12rem 0rem;
+
+    &--text {
+      font-size: 2rem;
+      font-weight: 300;
+    }
+
+    &--price {
+      font-size: 6rem;
+      font-weight: 100;
     }
   }
 }
