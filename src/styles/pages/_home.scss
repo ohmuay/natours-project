@@ -23,11 +23,18 @@
 }
 
 .section-tours {
-  padding: 15rem 30rem;
+  padding: 30rem 30rem 15rem 30rem;
+  background: $color-light-grey;
+  margin-top: -15rem;
   text-align:center;
 }
 
 .section-stories{
-  background:$color-light-grey;
+  position: relative;
   padding:15rem;
+}
+
+.section-book{
+  padding: 15rem;
+  background: linear-gradient(to right bottom,$color-primary-light,$color-primary-dark);
 }

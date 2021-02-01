@@ -7,6 +7,8 @@ import nat3 from "../img/nat-3-large.jpg";
 import nat8 from "../img/nat-8.jpg";
 import nat9 from "../img/nat-9.jpg";
 
+import bgVideo from "../img/video.mp4";
+
 const App = () => (
   <Fragment>
     <header className="header">
@@ -234,6 +236,11 @@ const App = () => (
       </section>
 
       <section className="section-stories">
+        <div className="bg-video">
+          <video className="bg-video__content" autoPlay muted loop>
+            <source src={bgVideo} type="video/mp4" />
+          </video>
+        </div>
         <div className="u-text-center u-margin-bottom-large">
           <h2 className="heading-secondary">we make people genuinely happy</h2>
         </div>
@@ -291,6 +298,75 @@ const App = () => (
           <a href="#" className="btn-link">
             Read all stories &rarr;
           </a>
+        </div>
+      </section>
+
+      <section className="section-book">
+        <div className="row">
+          <div className="book">
+            <div className="book__content">
+              <div className="u-margin-bottom-medium">
+                <h2 className="heading-secondary">start booking now</h2>
+              </div>
+              <form className="form">
+                <div className="form__group">
+                  <input
+                    type="text"
+                    className="form__input"
+                    id="name"
+                    placeholder="Full name"
+                    autoComplete="off"
+                    required
+                  />
+                  <label htmlFor="name" className="form__label">
+                    Full name
+                  </label>
+                </div>
+                <div className="form__group">
+                  <input
+                    type="email"
+                    className="form__input"
+                    id="email"
+                    placeholder="Email Address"
+                    autoComplete="off"
+                    required
+                  />
+                  <label htmlFor="email" className="form__label">
+                    Email Address
+                  </label>
+                </div>
+                <div className="form-group u-margin-bottom-extra-large">
+                  <div className="radio-group">
+                    <input
+                      type="radio"
+                      className="radio-group__input"
+                      name="group-size"
+                      id="small-group"
+                    />
+                    <label htmlFor="small-group" className="radio-group__label">
+                      <span className="radio-group__custom"></span>
+                      Small tour group
+                    </label>
+                  </div>
+                  <div className="radio-group">
+                    <input
+                      type="radio"
+                      className="radio-group__input"
+                      name="group-size"
+                      id="large-group"
+                    />
+                    <label htmlFor="large-group" className="radio-group__label">
+                    <span className="radio-group__custom"></span>
+                      large tour group
+                    </label>
+                  </div>
+                </div>
+                <div className="form-group">
+                  <button className="btn btn--primary">next step &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
     </main>
