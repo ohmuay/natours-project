@@ -374,7 +374,7 @@ const App = () => (
     </main>
 
     <footer className="footer">
-      <div className="footer__logo-box">
+      <div className="footer__logo-box u-margin-bottom-medium">
         <img src={xlogo} alt="2x-logo" className="footer__logo" />
       </div>
       <div className="row">
