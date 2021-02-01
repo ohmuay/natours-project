@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/natours-project/static/css/main.ace8ce8d.chunk.css",
-    "main.js": "/natours-project/static/js/main.772f233e.chunk.js",
-    "main.js.map": "/natours-project/static/js/main.772f233e.chunk.js.map",
+    "main.css": "/natours-project/static/css/main.cef28919.chunk.css",
+    "main.js": "/natours-project/static/js/main.5e12a65d.chunk.js",
+    "main.js.map": "/natours-project/static/js/main.5e12a65d.chunk.js.map",
     "runtime-main.js": "/natours-project/static/js/runtime-main.7f70a521.js",
     "runtime-main.js.map": "/natours-project/static/js/runtime-main.7f70a521.js.map",
     "static/js/2.1e0a0401.chunk.js": "/natours-project/static/js/2.1e0a0401.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.ad058f8c.chunk.js": "/natours-project/static/js/3.ad058f8c.chunk.js",
     "static/js/3.ad058f8c.chunk.js.map": "/natours-project/static/js/3.ad058f8c.chunk.js.map",
     "index.html": "/natours-project/index.html",
-    "static/css/main.ace8ce8d.chunk.css.map": "/natours-project/static/css/main.ace8ce8d.chunk.css.map",
+    "static/css/main.cef28919.chunk.css.map": "/natours-project/static/css/main.cef28919.chunk.css.map",
     "static/js/2.1e0a0401.chunk.js.LICENSE.txt": "/natours-project/static/js/2.1e0a0401.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/natours-project/static/media/nat-7.167e44e4.jpg",
     "static/media/logo-white.6c89a3f0.png": "/natours-project/static/media/logo-white.6c89a3f0.png",
@@ -18,12 +18,13 @@
     "static/media/nat-2-large.cbc0cd9f.jpg": "/natours-project/static/media/nat-2-large.cbc0cd9f.jpg",
     "static/media/nat-3-large.da53b7a0.jpg": "/natours-project/static/media/nat-3-large.da53b7a0.jpg",
     "static/media/nat-8.10678031.jpg": "/natours-project/static/media/nat-8.10678031.jpg",
-    "static/media/nat-9.b7a3e52c.jpg": "/natours-project/static/media/nat-9.b7a3e52c.jpg"
+    "static/media/nat-9.b7a3e52c.jpg": "/natours-project/static/media/nat-9.b7a3e52c.jpg",
+    "static/media/video.697d9c04.mp4": "/natours-project/static/media/video.697d9c04.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.7f70a521.js",
     "static/js/2.1e0a0401.chunk.js",
-    "static/css/main.ace8ce8d.chunk.css",
-    "static/js/main.772f233e.chunk.js"
+    "static/css/main.cef28919.chunk.css",
+    "static/js/main.5e12a65d.chunk.js"
   ]
 }
