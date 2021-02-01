@@ -9,6 +9,8 @@ import nat9 from "../img/nat-9.jpg";
 
 import bgVideo from "../img/video.mp4";
 
+import xlogo from "../img/logo-green-2x.png";
+
 const App = () => (
   <Fragment>
     <header className="header">
@@ -356,7 +358,7 @@ const App = () => (
                       id="large-group"
                     />
                     <label htmlFor="large-group" className="radio-group__label">
-                    <span className="radio-group__custom"></span>
+                      <span className="radio-group__custom"></span>
                       large tour group
                     </label>
                   </div>
@@ -370,6 +372,62 @@ const App = () => (
         </div>
       </section>
     </main>
+
+    <footer className="footer">
+      <div className="footer__logo-box">
+        <img src={xlogo} alt="2x-logo" className="footer__logo" />
+      </div>
+      <div className="row">
+        <div className="col-1-of-2">
+          <ul className="footer__navigations">
+            <li className="footer__item">
+              <a href="#" className="footer__link">
+                company
+              </a>
+            </li>
+            <li className="footer__item">
+              <a href="#" className="footer__link">
+                contact us
+              </a>
+            </li>
+            <li className="footer__item">
+              <a href="#" className="footer__link">
+                careers
+              </a>
+            </li>
+            <li className="footer__item">
+              <a href="#" className="footer__link">
+                privacy policy
+              </a>
+            </li>
+            <li className="footer__item">
+              <a href="#" className="footer__link">
+                terms
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="col-1-of-2">
+          <div className="footer__copyright">
+            <p>
+              Built by{" "}
+              <a href="#" className="footer__link">
+                thana wisutpsuhi
+              </a>{" "}
+              for an online course at{" "}
+              <a href="#" className="footer__link">
+                Udemy
+              </a>
+              . <br/>Copyright &copy; Web site designed by{" "}
+              <a href="#" className="footer__link">
+                jonas schmedtmann
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </Fragment>
 );
 
