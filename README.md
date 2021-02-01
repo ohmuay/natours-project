@@ -1,4 +1,5 @@
 # Deployed on github-pages at (https://ohmuay.github.io/natours-project/)
+### This project is focused on CSS/SASS but built with create-react-app just to use SASS compiler
 
 ## Getting Started with Create React App
 
