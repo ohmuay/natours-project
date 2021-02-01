@@ -4,6 +4,9 @@ import nat1 from "../img/nat-1-large.jpg";
 import nat2 from "../img/nat-2-large.jpg";
 import nat3 from "../img/nat-3-large.jpg";
 
+import nat8 from "../img/nat-8.jpg";
+import nat9 from "../img/nat-9.jpg";
+
 const App = () => (
   <Fragment>
     <header className="header">
@@ -47,7 +50,7 @@ const App = () => (
               molestiae recusandae eaque, deleniti veritatis doloremque?
             </p>
             <a href="#" className="btn-link">
-              Learn More &#8594;
+              Learn More &rarr;
             </a>
           </div>
           <div className="col-1-of-2">
@@ -155,7 +158,9 @@ const App = () => (
                   <span className="card__detail--text">only</span>
                   <span className="card__detail--price">$297</span>
                 </div>
-                <a href="#" className="btn btn--white">Book Now!</a>
+                <a href="#" className="btn btn--white">
+                  Book Now!
+                </a>
               </div>
             </div>
           </div>
@@ -183,7 +188,9 @@ const App = () => (
                   <span className="card__detail--text">only</span>
                   <span className="card__detail--price">$497</span>
                 </div>
-                <a href="#" className="btn btn--white">Book Now!</a>
+                <a href="#" className="btn btn--white">
+                  Book Now!
+                </a>
               </div>
             </div>
           </div>
@@ -211,10 +218,79 @@ const App = () => (
                   <span className="card__detail--text">only</span>
                   <span className="card__detail--price">$897</span>
                 </div>
-                <a href="#" className="btn btn--white">Book Now!</a>
+                <a href="#" className="btn btn--white">
+                  Book Now!
+                </a>
               </div>
             </div>
           </div>
+        </div>
+
+        <h3 className="u-text-center u-margin-top-extra-large">
+          <a href="#" className="btn btn--primary">
+            discover all tours
+          </a>
+        </h3>
+      </section>
+
+      <section className="section-stories">
+        <div className="u-text-center u-margin-bottom-large">
+          <h2 className="heading-secondary">we make people genuinely happy</h2>
+        </div>
+        <div className="row">
+          <div className="story">
+            <figure className="story__shape">
+              <img src={nat8} alt="" className="story__shape--img" />
+              <figcaption className="story__shape--caption">
+                Mary Rose
+              </figcaption>
+            </figure>
+            <div className="story__text">
+              <h3 className="heading-tertiary u-margin-bottom-small">
+                i had the best week ever with my family
+              </h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+                quis, nisi ullam eos maiores illo, necessitatibus amet sed
+                reiciendis similique sit nostrum porro voluptatibus dicta?
+                Deleniti totam modi cum ipsum voluptates dolor laudantium. Rem
+                sapiente est voluptas molestias quibusdam dolore provident.
+                Explicabo quas repellat necessitatibus exercitationem nihil
+                nemo? Consectetur, vero!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="story">
+            <figure className="story__shape">
+              <img src={nat9} alt="" className="story__shape--img" />
+              <figcaption className="story__shape--caption">
+                jack wilson
+              </figcaption>
+            </figure>
+            <div className="story__text">
+              <h3 className="heading-tertiary u-margin-bottom-small">
+                wow! my life is completely different now
+              </h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+                quis, nisi ullam eos maiores illo, necessitatibus amet sed
+                reiciendis similique sit nostrum porro voluptatibus dicta?
+                Deleniti totam modi cum ipsum voluptates dolor laudantium. Rem
+                sapiente est voluptas molestias quibusdam dolore provident.
+                Explicabo quas repellat necessitatibus exercitationem nihil
+                nemo? Consectetur, vero!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="u-text-center u-margin-top-extra-large">
+          <a href="#" className="btn-link">
+            Read all stories &rarr;
+          </a>
         </div>
       </section>
     </main>

@@ -55,6 +55,8 @@
     height: 25rem;
     background-blend-mode: screen;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
     &--1 {
       background: linear-gradient(
         to bottom,
