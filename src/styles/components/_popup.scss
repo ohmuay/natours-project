@@ -6,13 +6,15 @@
   left: 0;
   background: rgba($color-black, 0.6);
   z-index: 9999999;
-
   opacity: 0;
   visibility: hidden;
-
+  transition: all 0.3s;
   &:target {
     opacity: 1;
     visibility: visible;
+  }
+  &:target &__content {
+    transform: translate(-50%, -50%) scale(1);
   }
 
   &__close {
@@ -37,8 +39,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0);
     display: table;
+    transition: all 0.4s 0.3s;
   }
 
   &__content-left {

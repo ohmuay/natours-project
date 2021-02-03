@@ -233,7 +233,7 @@ const App = () => (
                   <span className="card__detail--text">only</span>
                   <span className="card__detail--price">$497</span>
                 </div>
-                <a href="#" className="btn btn--white">
+                <a href="#popup" className="btn btn--white">
                   Book Now!
                 </a>
               </div>
@@ -263,7 +263,7 @@ const App = () => (
                   <span className="card__detail--text">only</span>
                   <span className="card__detail--price">$897</span>
                 </div>
-                <a href="#" className="btn btn--white">
+                <a href="#popup" className="btn btn--white">
                   Book Now!
                 </a>
               </div>
