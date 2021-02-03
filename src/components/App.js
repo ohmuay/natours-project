@@ -13,6 +13,47 @@ import xlogo from "../img/logo-green-2x.png";
 
 const App = () => (
   <Fragment>
+    <div className="navigation">
+      <input
+        type="checkbox"
+        className="navigation__checkbox"
+        id="navi-toggle"
+      />
+      <label htmlFor="navi-toggle" className="navigation__button">
+        <span className="navigation__icon">&nbsp;</span>
+      </label>
+      <div className="navigation__bg"></div>
+      <nav className="navigation__box">
+        <ul className="navigation__list">
+          <li className="navigation__item">
+            <a href="#" className="navigation__link">
+              about natours
+            </a>
+          </li>
+          <li className="navigation__item">
+            <a href="#" className="navigation__link">
+              your benefits
+            </a>
+          </li>
+          <li className="navigation__item">
+            <a href="#" className="navigation__link">
+              popular tours
+            </a>
+          </li>
+          <li className="navigation__item">
+            <a href="#" className="navigation__link">
+              stories
+            </a>
+          </li>
+          <li className="navigation__item">
+            <a href="#" className="navigation__link">
+              book now
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <header className="header">
       <div className="header__logo-box">
         <img src={logo} alt="" className="header__logo" />
@@ -162,7 +203,7 @@ const App = () => (
                   <span className="card__detail--text">only</span>
                   <span className="card__detail--price">$297</span>
                 </div>
-                <a href="#" className="btn btn--white">
+                <a href="#popup" className="btn btn--white">
                   Book Now!
                 </a>
               </div>
@@ -419,7 +460,8 @@ const App = () => (
               <a href="#" className="footer__link">
                 Udemy
               </a>
-              . <br/>Copyright &copy; Web site designed by{" "}
+              . <br />
+              Copyright &copy; Web site designed by{" "}
               <a href="#" className="footer__link">
                 jonas schmedtmann
               </a>
@@ -428,6 +470,46 @@ const App = () => (
         </div>
       </div>
     </footer>
+
+    <div className="popup" id="popup">
+      <div className="popup__content">
+        <div className="popup__close">
+          <a href="#" className="popup__close-icon">
+            &times;
+          </a>
+        </div>
+        <div className="popup__content-left">
+          <img src={nat8} alt="" className="popup__img" />
+          <img src={nat9} alt="" className="popup__img" />
+        </div>
+        <div className="popup__content-right">
+          <h2 className="heading-secondary u-margin-bottom-small">
+            start booking now
+          </h2>
+          <h3 className="heading-tertiary u-margin-bottom-small">
+            important - please read these terms before booking
+          </h3>
+          <p className="popup__text u-margin-bottom-extra-large">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatibus voluptatem optio praesentium fugiat expedita, assumenda
+            doloribus corrupti blanditiis nisi, iste omnis possimus mollitia
+            ducimus architecto deserunt voluptatum suscipit! Quidem sit maxime
+            libero illo totam a autem nam exercitationem recusandae odio ex
+            explicabo corporis velit rerum eaque et, provident, magni tempore
+            quia. Atque debitis harum velit minus architecto maiores consequatur
+            commodi, omnis animi temporibus sed voluptates dolorem, error
+            praesentium saepe nam, quae quisquam! Animi asperiores repellat
+            quisquam praesentium earum voluptate quia, laborum illo nulla libero
+            veritatis molestiae, ratione quidem vitae quibusdam repudiandae
+            tenetur consequuntur impedit eaque possimus? Ipsam consequatur
+            officia quia.
+          </p>
+          <a href="#" className="btn btn--primary">
+            book now
+          </a>
+        </div>
+      </div>
+    </div>
   </Fragment>
 );
 
