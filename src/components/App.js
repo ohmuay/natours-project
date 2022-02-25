@@ -454,7 +454,7 @@ const App = () => (
             <p>
               Built by{" "}
               <a href="#" className="footer__link">
-                thana wisutpsuhi
+                thana wisutphusi
               </a>{" "}
               for an online course at{" "}
               <a href="#" className="footer__link">
